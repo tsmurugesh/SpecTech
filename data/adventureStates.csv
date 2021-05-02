@@ -7,3 +7,4 @@ ID,StateName,ClassName,PNGFilename,CollisionFilename
 5,Artist2,PNGRoom,assets/artist2.png,
 6,Artist3,PNGRoom,assets/artist3.png,
 7,ArtistAgree,PNGRoom,assets/artistAgree.png,
+8,LearnMore,PNGRoom,assets/learnMore.png,

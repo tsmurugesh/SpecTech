@@ -9,3 +9,6 @@ ArtistOpinion,,,,ChooseArtist,,ArtistAgree
 Artist1,,,,BackToArtistOpinion1,,ArtistOpinion
 Artist2,,,,BackToArtistOpinion2,,ArtistOpinion
 Artist3,,,,BackToArtistOpinion3,,ArtistOpinion
+ArtistAgree,1,,,,,LearnMore
+ArtistAgree,2,,,,,LearnMore
+ArtistAgree,3,,,,,LearnMore
