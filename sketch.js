@@ -160,6 +160,42 @@ function keyPressed() {
             print("New Score: ",totalScore);
         }
     }
+    
+    if (adventureManager.getStateName() == "ChooseViewer"){
+        if (key === '1'){
+            totalScore = totalScore + 2;
+            print("New Score: ",totalScore);
+        }
+        else if (key === '2'){
+            totalScore = totalScore;
+            print("New Score: ",totalScore);
+        }
+    }
+    
+    if (adventureManager.getStateName() == "Donate"){
+        if (key === 'Y'){
+            print("Total Score: ",totalScore);
+            //adventureManager.changeState("Ending1");
+            if ( totalScore == 1){
+                adventureManager.changeState("Ending1");
+            }
+            else if ( totalScore >= 2 && totalScore <= 5 ){
+                adventureManager.changeState("Ending2");
+            }
+            else if ( totalScore >= 6 ){
+                adventureManager.changeState("Ending3");
+            }
+        }
+        else if (key === 'N'){
+            print("Total Score: ",totalScore);
+            if ( totalScore == 1){
+                adventureManager.changeState("Ending4");
+            }
+            else {
+                adventureManager.changeState("Ending5");
+            }
+        }
+    }
     // dispatch all keys to adventure manager
     adventureManager.keyPressed(key);
 }

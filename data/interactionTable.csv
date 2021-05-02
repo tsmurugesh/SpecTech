@@ -16,3 +16,10 @@ LearnMore,Y,,,,,AboutCEO
 LearnMore,N,,,,,ToMuseum
 AboutCEO,,,,ReadCEO,,ToMuseum
 ToMuseum,,,mouseReleased,,,ChooseExhibit
+ChooseExhibit,,,,ViewExhibitOne,,Exhibit1
+ChooseExhibit,,,,ViewExhibitTwo,,Exhibit2
+ChooseExhibit,,,,ChooseViewer,,ChooseViewer
+Exhibit1,,,,BackToExhibit1,,ChooseExhibit
+Exhibit2,,,,BackToExhibit2,,ChooseExhibit
+ChooseViewer,1,,,,,Donate
+ChooseViewer,2,,,,,Donate

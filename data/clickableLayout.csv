@@ -7,5 +7,9 @@ ID,Name,State,PNGFilename,Text,x,y,visible
 5,BackToArtistOpinion3,Artist3,,Back,100,650,yes
 6,ChooseArtist,ArtistOpinion,,Continue,800,650,yes
 7,ReadCEO,AboutCEO,,Continue,100,650,yes
-
+8,ViewExhibitOne,ChooseExhibit,,Exhibit 1,100,650,yes
+9,ViewExhibitTwo,ChooseExhibit,,Exhibit 2,300,650,yes
+10,BackToExhibit1,Exhibit1,,Back,100,650,yes
+11,BackToExhibit2,Exhibit2,,Back,100,650,yes
+12,ChooseViewer,ChooseExhibit,,Continue,800,650,yes
 

@@ -11,4 +11,12 @@ ID,StateName,ClassName,PNGFilename,CollisionFilename
 9,AboutCEO,PNGRoom,assets/aboutCEO.png,
 10,ToMuseum,PNGRoom,assets/toMuseum.png,
 11,ChooseExhibit,PNGRoom,assets/chooseExhibit.png,
-
+12,Exhibit1,PNGRoom,assets/exhibit1.png,
+13,Exhibit2,PNGRoom,assets/exhibit2.png,
+14,ChooseViewer,PNGRoom,assets/visitorAgree.png,
+15,Donate,PNGRoom,assets/donate.png,
+16,Ending1,PNGRoom,assets/ending1.png,
+17,Ending2,PNGRoom,assets/ending2.png,
+18,Ending3,PNGRoom,assets/ending3.png,
+19,Ending4,PNGRoom,assets/ending4.png,
+20,Ending5,PNGRoom,assets/ending5.png,
