@@ -12,3 +12,7 @@ Artist3,,,,BackToArtistOpinion3,,ArtistOpinion
 ArtistAgree,1,,,,,LearnMore
 ArtistAgree,2,,,,,LearnMore
 ArtistAgree,3,,,,,LearnMore
+LearnMore,Y,,,,,AboutCEO
+LearnMore,N,,,,,ToMuseum
+AboutCEO,,,,ReadCEO,,ToMuseum
+ToMuseum,,,mouseReleased,,,ChooseExhibit

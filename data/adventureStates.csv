@@ -8,3 +8,7 @@ ID,StateName,ClassName,PNGFilename,CollisionFilename
 6,Artist3,PNGRoom,assets/artist3.png,
 7,ArtistAgree,PNGRoom,assets/artistAgree.png,
 8,LearnMore,PNGRoom,assets/learnMore.png,
+9,AboutCEO,PNGRoom,assets/aboutCEO.png,
+10,ToMuseum,PNGRoom,assets/toMuseum.png,
+11,ChooseExhibit,PNGRoom,assets/chooseExhibit.png,
+

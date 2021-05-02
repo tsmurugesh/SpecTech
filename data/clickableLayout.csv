@@ -6,4 +6,6 @@ ID,Name,State,PNGFilename,Text,x,y,visible
 4,BackToArtistOpinion2,Artist2,,Back,100,650,yes
 5,BackToArtistOpinion3,Artist3,,Back,100,650,yes
 6,ChooseArtist,ArtistOpinion,,Continue,800,650,yes
+7,ReadCEO,AboutCEO,,Continue,100,650,yes
+
 

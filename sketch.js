@@ -129,9 +129,11 @@ function keyPressed() {
         fullscreen(!fs);
         return;
     }
-
-    // dispatch all keys to adventure manager
-    adventureManager.keyPressed(key);
+    
+    if (key === 'z') {
+        print("Current Score: ",totalScore);
+        return;
+    }
 
     if (adventureManager.getStateName() == "ArtistAgree") {
         if (key === '1'){
@@ -147,6 +149,19 @@ function keyPressed() {
             print("New Score: ",totalScore);
         }
     }
+    
+    if (adventureManager.getStateName() == "LearnMore"){
+        if (key === 'Y'){
+            totalScore = totalScore;
+            print("New Score: ",totalScore);
+        }
+        else if (key === 'N'){
+            totalScore = totalScore + 2;
+            print("New Score: ",totalScore);
+        }
+    }
+    // dispatch all keys to adventure manager
+    adventureManager.keyPressed(key);
 }
 
 function mouseReleased() {
