@@ -24,15 +24,15 @@ var clickables; // an array of clickable objects
 
 var totalScore=0;
 
-let headlineFont;
-let bodyFont;
+let myFont1;
+let myFont2;
 
 
 // Allocate Adventure Manager with states table and interaction tables
 function preload() {
 
-    headlineFont = loadFont('fonts/FogCityGothic-Wide.otf');
-    bodyFont = loadFont('fonts/FogCityGothic-Regular.otf');
+    myFont1 = loadFont('fonts/ArgentPixelCF-Regular.otf');
+    myFont2 = loadFont('fonts/ArgentPixelCF-Italic.otf');
 
     clickablesManager = new ClickableManager('data/clickableLayout.csv');
     adventureManager = new AdventureManager('data/adventureStates.csv', 'data/interactionTable.csv', 'data/clickableLayout.csv');
@@ -103,10 +103,10 @@ function keyPressed() {
     }
     
     if (adventureManager.getStateName() == "LearnMore"){
-        if (key === 'Y'){
+        if (key === 'Y' || key === 'y'){
             totalScore = totalScore;
         }
-        else if (key === 'N'){
+        else if (key === 'N' || key === 'n'){
             totalScore = totalScore + 2;
         }
     }
@@ -121,7 +121,7 @@ function keyPressed() {
     }
     
     if (adventureManager.getStateName() == "Donate"){
-        if (key === 'Y'){
+        if (key === 'Y' || key === 'y'){
             if ( totalScore == 1){
                 adventureManager.changeState("Ending1");
             }
@@ -132,7 +132,7 @@ function keyPressed() {
                 adventureManager.changeState("Ending3");
             }
         }
-        else if (key === 'N'){
+        else if (key === 'N' || key === 'n'){
             if ( totalScore == 1){
                 adventureManager.changeState("Ending4");
             }
@@ -155,22 +155,32 @@ function mouseReleased() {
 
 function setupClickables() {
     // All clickables to have same effects
+    //this.textFont(myFont1);
     for (let i = 0; i < clickables.length; i++) {
         clickables[i].onHover = clickableButtonHover;
         clickables[i].onOutside = clickableButtonOnOutside;
         clickables[i].onPress = clickableButtonPressed;
+        clickables[i].textSize  = 15;
+        clickables[i].cornerRadius = 0;
+        clickables[i].stroke = "#294A6A";
+        clickables[i].strokeWeight = 5;
     }
 }
 
 // tint when mouse is over
+
 clickableButtonHover = function () {
-    this.color = "#d1bfb1";
+    this.color = "#294A6A";
     this.noTint = false;
     this.tint = "#d1bfb1";
+    this.textFont = (myFont2);
+    this.textColor = "#F5F5F2";
 }
 
 clickableButtonOnOutside = function () {
-    this.color = "#FFF";
+    this.color = "#F5F5F2";
+    this.textFont = (myFont1);
+     this.textColor = "#294A6A";
 }
 
 clickableButtonPressed = function () {

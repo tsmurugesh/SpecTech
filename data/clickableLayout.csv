@@ -1,15 +1,15 @@
 ID,Name,State,PNGFilename,Text,x,y,visible
-0,ViewArtistOne,ArtistOpinion,,Artist 1,100,650,yes
-1,ViewArtistTwo,ArtistOpinion,,Artist 2,300,650,yes
-2,ViewArtistThree,ArtistOpinion,,Artist 3,500,650,yes
-3,BackToArtistOpinion1,Artist1,,Back,100,650,yes
-4,BackToArtistOpinion2,Artist2,,Back,100,650,yes
-5,BackToArtistOpinion3,Artist3,,Back,100,650,yes
-6,ChooseArtist,ArtistOpinion,,Continue,800,650,yes
+0,ViewArtistOne,ArtistOpinion,assets/artist1_face.jpg,Artist 1,270,250,yes
+1,ViewArtistTwo,ArtistOpinion,assets/artist2_face.jpg,Artist 2,520,250,yes
+2,ViewArtistThree,ArtistOpinion,assets/artist3_face.jpg,Artist 3,770,250,yes
+3,BackToArtistOpinion1,Artist1,,Back,76,690,yes
+4,BackToArtistOpinion2,Artist2,,Back,76,690,yes
+5,BackToArtistOpinion3,Artist3,,Back,76,690,yes
+6,ChooseArtist,ArtistOpinion,,Continue,910,490,yes
 7,ReadCEO,AboutCEO,,Continue,100,650,yes
 8,ViewExhibitOne,ChooseExhibit,,Exhibit 1,100,650,yes
 9,ViewExhibitTwo,ChooseExhibit,,Exhibit 2,300,650,yes
 10,BackToExhibit1,Exhibit1,,Back,100,650,yes
 11,BackToExhibit2,Exhibit2,,Back,100,650,yes
-12,ChooseViewer,ChooseExhibit,,Continue,800,650,yes
+12,ChooseViewer,ChooseExhibit,,Continue,910,490,yes
 
