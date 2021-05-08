@@ -72,6 +72,12 @@ function draw() {
 
     // draw the p5.clickables, in front of the mazes but behind the sprites 
     clickablesManager.draw();
+    
+    if (adventureManager.getStateName() == "Splash"){
+    }
+    else{
+        drawScore();
+    }
 }
 
 // pass to adventure manager, this do the draw / undraw events
@@ -85,7 +91,7 @@ function keyPressed() {
     
     // simply for code checking puposes, checks current score in js viewer
     // you want fewer points!
-    if (key === 'z') {
+    if (key === "z") {
         print("Current Score: ",totalScore);
         return;
     }
@@ -175,6 +181,7 @@ clickableButtonHover = function () {
     this.tint = "#d1bfb1";
     this.textFont = (myFont2);
     this.textColor = "#F5F5F2";
+    //this.y=this.y - 5;
 }
 
 clickableButtonOnOutside = function () {
@@ -187,5 +194,19 @@ clickableButtonPressed = function () {
     // these clickables are ones that change your state
     // so they route to the adventure manager to do this
     adventureManager.clickablePressed(this.name);
+
+}
+
+function drawScore(){
+     stroke("#294A6A");
+    fill("white");
+    strokeWeight(5);
+    rect( 61, 60, 170,30)
+    textFont(myFont1);
+    textSize(16);
+    strokeWeight(0);
+    //stroke("#294A6A");
+    fill("#294A6A");
+   text('Current Score: ' + totalScore, 67, 81);
 }
 
