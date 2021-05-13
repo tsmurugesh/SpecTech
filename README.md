@@ -1,6 +1,8 @@
-# Social Justice Game
+# Speculative Technology
 #### by Tanvi Murugesh
 https://xarts.usfca.edu/~tsmurugesh/SpecTech/
+
+XD Link: https://xd.adobe.com/view/e4f40295-7ec7-43f8-9ba0-a041604f716a-b1a7/?fullscreen
 
 
 ## Overview
