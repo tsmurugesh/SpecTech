@@ -2,14 +2,14 @@ ID,Name,State,PNGFilename,Text,x,y,visible
 0,ViewArtistOne,ArtistOpinion,assets/artist1Button.png,,200,150,yes
 1,ViewArtistTwo,ArtistOpinion,assets/artist2Button.png,,460,150,yes
 2,ViewArtistThree,ArtistOpinion,assets/artist3Button.png,,730,150,yes
-3,BackToArtistOpinion1,Artist1,,Back,76,690,yes
-4,BackToArtistOpinion2,Artist2,,Back,76,690,yes
-5,BackToArtistOpinion3,Artist3,,Back,76,690,yes
+3,BackToArtistOpinion1,Artist1,,Back,60,690,yes
+4,BackToArtistOpinion2,Artist2,,Back,60,690,yes
+5,BackToArtistOpinion3,Artist3,,Back,760,690,yes
 6,ChooseArtist,ArtistOpinion,,Continue,910,490,yes
-7,ReadCEO,AboutCEO,,Continue,76,690,yes
+7,ReadCEO,AboutCEO,,Continue,60,690,yes
 8,ViewExhibitOne,ChooseExhibit,,Exhibit 1,100,470,yes
 9,ViewExhibitTwo,ChooseExhibit,,Exhibit 2,230,470,yes
-10,BackToExhibit1,Exhibit1,,Back,100,650,yes
-11,BackToExhibit2,Exhibit2,,Back,100,650,yes
+10,BackToExhibit1,Exhibit1,,Back,60,690,yes
+11,BackToExhibit2,Exhibit2,,Back,60,690,yes
 12,ChooseViewer,ChooseExhibit,,Continue,910,470,yes
 
