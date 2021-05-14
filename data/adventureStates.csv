@@ -20,3 +20,4 @@ ID,StateName,ClassName,PNGFilename,CollisionFilename
 18,Ending3,PNGRoom,assets/ending3.png,
 19,Ending4,PNGRoom,assets/ending4.png,
 20,Ending5,PNGRoom,assets/ending5.png,
+21,Instructions,PNGRoom,assets/inst.png,

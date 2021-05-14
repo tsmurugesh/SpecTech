@@ -1,5 +1,6 @@
 CurrentState,KeyTyped,KeyCode,MouseEvent,ClickableName,MapDirection,NextState
-Splash,,,mouseReleased,,,About
+Splash,,,mouseReleased,,,Instructions
+Instructions,,,mouseReleased,,,About
 About,,,mouseReleased,,,AboutMuseum
 AboutMuseum,,,mouseReleased,,,ArtistOpinion
 ArtistOpinion,,,,ViewArtistOne,,Artist1
@@ -23,3 +24,4 @@ Exhibit1,,,,BackToExhibit1,,ChooseExhibit
 Exhibit2,,,,BackToExhibit2,,ChooseExhibit
 ChooseViewer,1,,,,,Donate
 ChooseViewer,2,,,,,Donate
+ArtistAgree,,,,BackToArtistOpinion,,ArtistOpinion

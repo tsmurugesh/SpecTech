@@ -109,9 +109,9 @@ function keyPressed() {
     }
 
     if (adventureManager.getStateName() == "LearnMore") {
-        if (key === 'Y' || key === 'y') {
+        if (key === 'y' || key === 'Y') {
             totalScore = totalScore;
-        } else if (key === 'N' || key === 'n') {
+        } else if (key === 'n' || key === 'N') {
             totalScore = totalScore + 2;
         }
     }
@@ -125,7 +125,7 @@ function keyPressed() {
     }
 
     if (adventureManager.getStateName() == "Donate") {
-        if (key === 'Y' || key === 'y') {
+        if (key === 'y' || key === 'N') {
             if (totalScore == 1) {
                 adventureManager.changeState("Ending1");
             } else if (totalScore >= 2 && totalScore <= 5) {
@@ -133,7 +133,7 @@ function keyPressed() {
             } else if (totalScore >= 6) {
                 adventureManager.changeState("Ending3");
             }
-        } else if (key === 'N' || key === 'n') {
+        } else if (key === 'n' || key === 'N') {
             if (totalScore == 1) {
                 adventureManager.changeState("Ending4");
             } else {

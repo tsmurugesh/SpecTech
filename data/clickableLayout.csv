@@ -4,7 +4,7 @@ ID,Name,State,PNGFilename,Text,x,y,visible
 2,ViewArtistThree,ArtistOpinion,assets/artist3Button.png,,730,150,yes
 3,BackToArtistOpinion1,Artist1,,Back,60,690,yes
 4,BackToArtistOpinion2,Artist2,,Back,60,690,yes
-5,BackToArtistOpinion3,Artist3,,Back,760,690,yes
+5,BackToArtistOpinion3,Artist3,,Back,60,690,yes
 6,ChooseArtist,ArtistOpinion,,Continue,910,490,yes
 7,ReadCEO,AboutCEO,,Continue,60,690,yes
 8,ViewExhibitOne,ChooseExhibit,,Exhibit 1,100,470,yes
@@ -12,4 +12,4 @@ ID,Name,State,PNGFilename,Text,x,y,visible
 10,BackToExhibit1,Exhibit1,,Back,60,690,yes
 11,BackToExhibit2,Exhibit2,,Back,60,690,yes
 12,ChooseViewer,ChooseExhibit,,Continue,910,470,yes
-
+13,BackToArtistOpinion,ArtistAgree,,Back,90,550,yes
